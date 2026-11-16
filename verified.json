@@ -1,7 +1,7 @@
 {
   "format": "subwave-verified",
   "version": 1,
-  "updated_at": "2026-11-16T00:00:00Z",
+  "updated_at": "2026-11-16T01:30:00Z",
   "defaults": {
     "badge_color": "#297EFB",
     "tile_background": "#FFFFFF",
@@ -83,6 +83,46 @@
         "header_contains": [
           "antizhalostinet_bot",
           "antizhalostinet_support"
+        ]
+      }
+    },
+    {
+      "id": "save-vpn",
+      "name": "SAVE VPN | СЕЙВ ВПН",
+      "verified": true,
+      "priority": 100,
+      "icon": {
+        "svg_url": "https://raw.githubusercontent.com/barmidan71/verified/refs/heads/main/save-vpn.svg",
+        "tile_background": "#0E0E0E",
+        "padding": 0.0,
+        "sha256": "e04140617bcc76f05b7c1d08bd845c5b633676d16d3fb99fe5fc30618126bfa7"
+      },
+      "match": {
+        "domains": [
+          "saveprox.com",
+          "*.saveprox.com"
+        ],
+        "host_contains": [
+          "saveprox"
+        ],
+        "title_exact": [
+          "СЕЙВ VPN | SAVE VPN",
+          "SAVE VPN | СЕЙВ ВПН",
+          "SAVE VPN | СЕЙВ VPN",
+          "СЕЙВ ВПН | SAVE VPN",
+          "SAVE VPN",
+          "СЕЙВ VPN",
+          "СЕЙВ ВПН"
+        ],
+        "title_contains": [
+          "SAVE VPN",
+          "СЕЙВ VPN",
+          "СЕЙВ ВПН"
+        ],
+        "header_contains": [
+          "t.me/savepomosh",
+          "@vpnsave",
+          "saveprox.com"
         ]
       }
     }

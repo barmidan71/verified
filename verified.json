@@ -5,7 +5,7 @@
   "defaults": {
     "badge_color": "#297EFB",
     "tile_background": "#FFFFFF",
-    "icon_padding": 0.07
+    "icon_padding": 0.0
   },
   "providers": [
     {
@@ -16,8 +16,8 @@
       "icon": {
         "svg_url": "https://raw.githubusercontent.com/<USER>/<REPO>/main/icons/new-vpn.svg",
         "tile_background": "#FFFFFF",
-        "padding": 0.07,
-        "sha256": "c9aeb39d95f30c3a16fa75c92e99936ddfb2279781f121b6806e946b260f6c54"
+        "padding": 0.0,
+        "sha256": "43a65466773d98540adcd9c37ab21f7ae342c60583a99e79e465b8704bdbd013"
       },
       "match": {
         "domains": [
@@ -43,8 +43,8 @@
       "icon": {
         "svg_url": "https://raw.githubusercontent.com/<USER>/<REPO>/main/icons/new-vpn.svg",
         "tile_background": "#FFFFFF",
-        "padding": 0.07,
-        "sha256": "c9aeb39d95f30c3a16fa75c92e99936ddfb2279781f121b6806e946b260f6c54"
+        "padding": 0.0,
+        "sha256": "43a65466773d98540adcd9c37ab21f7ae342c60583a99e79e465b8704bdbd013"
       },
       "match": {
         "domains": [
@@ -56,6 +56,33 @@
         ],
         "title_exact": [
           "Белые списки NEW VPN"
+        ]
+      }
+    },
+    {
+      "id": "antizhalosti-net",
+      "name": "АНТИЖАЛОСТИ.НЕТ",
+      "verified": true,
+      "priority": 100,
+      "icon": {
+        "svg_url": "https://raw.githubusercontent.com/<USER>/<REPO>/main/icons/antizhalosti.svg",
+        "tile_background": "#FFFFFF",
+        "padding": 0.0,
+        "sha256": "4d234428c9c351f183abb65a5104bb8b137f0fb85c666b851966731e4fc3f43d"
+      },
+      "match": {
+        "domains": [
+          "zestful.bond",
+          "*.zestful.bond"
+        ],
+        "title_exact": [
+          "АНТИЖАЛОСТИ.НЕТ",
+          "Антижалости.нет",
+          "ANTIZHALOSTI.NET"
+        ],
+        "header_contains": [
+          "antizhalostinet_bot",
+          "antizhalostinet_support"
         ]
       }
     }

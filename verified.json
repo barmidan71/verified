@@ -14,7 +14,7 @@
       "verified": true,
       "priority": 100,
       "icon": {
-        "svg_url": "https://raw.githubusercontent.com/<USER>/<REPO>/main/icons/new-vpn.svg",
+        "svg_url": "https://raw.githubusercontent.com/barmidan71/verified/refs/heads/main/new-vpn.svg",
         "tile_background": "#FFFFFF",
         "padding": 0.0,
         "sha256": "43a65466773d98540adcd9c37ab21f7ae342c60583a99e79e465b8704bdbd013"
@@ -41,7 +41,7 @@
       "verified": true,
       "priority": 110,
       "icon": {
-        "svg_url": "https://raw.githubusercontent.com/<USER>/<REPO>/main/icons/new-vpn.svg",
+        "svg_url": "https://raw.githubusercontent.com/barmidan71/verified/refs/heads/main/new-vpn.svg",
         "tile_background": "#FFFFFF",
         "padding": 0.0,
         "sha256": "43a65466773d98540adcd9c37ab21f7ae342c60583a99e79e465b8704bdbd013"

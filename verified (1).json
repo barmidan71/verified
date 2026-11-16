@@ -1,0 +1,63 @@
+{
+  "format": "subwave-verified",
+  "version": 1,
+  "updated_at": "2026-11-16T00:00:00Z",
+  "defaults": {
+    "badge_color": "#297EFB",
+    "tile_background": "#FFFFFF",
+    "icon_padding": 0.07
+  },
+  "providers": [
+    {
+      "id": "new-vpn",
+      "name": "NEW VPN",
+      "verified": true,
+      "priority": 100,
+      "icon": {
+        "svg_url": "https://raw.githubusercontent.com/<USER>/<REPO>/main/icons/new-vpn.svg",
+        "tile_background": "#FFFFFF",
+        "padding": 0.07,
+        "sha256": "c9aeb39d95f30c3a16fa75c92e99936ddfb2279781f121b6806e946b260f6c54"
+      },
+      "match": {
+        "domains": [
+          "*.newvpnsubscribe.cfd",
+          "*.newvpnsubscribe.*",
+          "newvpn.cfd",
+          "*.newvpn.cfd"
+        ],
+        "host_contains": [
+          "newvpnsubscribe"
+        ],
+        "title_exact": [
+          "New VPN",
+          "NEW VPN"
+        ]
+      }
+    },
+    {
+      "id": "new-vpn-whitelist",
+      "name": "Белые списки NEW VPN",
+      "verified": true,
+      "priority": 110,
+      "icon": {
+        "svg_url": "https://raw.githubusercontent.com/<USER>/<REPO>/main/icons/new-vpn.svg",
+        "tile_background": "#FFFFFF",
+        "padding": 0.07,
+        "sha256": "c9aeb39d95f30c3a16fa75c92e99936ddfb2279781f121b6806e946b260f6c54"
+      },
+      "match": {
+        "domains": [
+          "wcloud.pw",
+          "*.wcloud.pw"
+        ],
+        "url_regex": [
+          "^https?://([a-z0-9-]+\\.)?wcloud\\.pw/s/20010/.*"
+        ],
+        "title_exact": [
+          "Белые списки NEW VPN"
+        ]
+      }
+    }
+  ]
+}

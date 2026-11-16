@@ -65,7 +65,7 @@
       "verified": true,
       "priority": 100,
       "icon": {
-        "svg_url": "https://raw.githubusercontent.com/<USER>/<REPO>/main/icons/antizhalosti.svg",
+        "svg_url": "https://raw.githubusercontent.com/barmidan71/verified/refs/heads/main/antizhalosti.svg",
         "tile_background": "#FFFFFF",
         "padding": 0.0,
         "sha256": "4d234428c9c351f183abb65a5104bb8b137f0fb85c666b851966731e4fc3f43d"
